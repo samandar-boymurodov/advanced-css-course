@@ -1,0 +1,16 @@
+.story {
+    width: 75%;
+    box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+    background-color: $color-white;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    padding: 6rem;
+    font-size: $default-font-size;
+
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        background-color: orangered;
+        float: left;
+    }
+}
