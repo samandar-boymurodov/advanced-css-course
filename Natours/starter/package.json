@@ -1,17 +1,17 @@
 {
-    "name": "starter",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "compile:sass": "sass sass/main.scss  css/styles.css --watch",
-        "format": "prettier --write ."
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "prettier": "^2.6.2",
-        "sass": "^1.51.0"
-    }
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss  css/styles.css --watch",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0"
+  }
 }

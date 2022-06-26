@@ -2,8 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a398011-8315-4f29-b6e8-dfcdcc1b78ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/icon-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/icon-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/icons-reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/icons-reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/expand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/fsevents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/fsevents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/fsevents.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/dist/immutable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/immutable/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/picomatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/scan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/doc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-angular.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-babel.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-espree.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-flow.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-glimmer.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-graphql.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-html.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-markdown.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-meriyah.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-postcss.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-typescript.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/parser-yaml.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/esm/standalone.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-espree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-meriyah.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/third-party.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.default.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/compile.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/importer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/exception.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/function.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/importer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/plugin_this.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/legacy/render.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/logger/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/logger/source_location.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/logger/source_span.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/util/promise_or.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/argument_list.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/boolean.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/color.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/function.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/list.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/map.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/number.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/value/string.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/source-map.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-js/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_bg-video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_bg-video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_composition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_feature-box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_story.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +217,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/samandarboymurodov/Documents/advanced-css-course/Natours/starter/node_modules/prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,7 +236,11 @@
       <option name="presentableId" value="Default" />
       <updated>1652032313670</updated>
       <workItem from="1652032315095" duration="3000" />
+      <workItem from="1656264057403" duration="301000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
