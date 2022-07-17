@@ -141,7 +141,6 @@ body {
   text-transform: uppercase;
   padding: 1.5rem 4rem;
   display: inline-block;
-  text-transform: uppercase;
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
@@ -150,7 +149,7 @@ body {
   cursor: pointer;
 }
 .btn:hover {
-  transform: translateY(-0.3rem);
+  transform: translateY(-3px);
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 .btn:hover::after {
@@ -204,11 +203,11 @@ body {
 .btn-text:hover {
   background-color: #55c57a;
   color: #fff;
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
 .btn-text:active {
-  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0);
 }
 
@@ -606,9 +605,6 @@ body {
   opacity: 1;
   visibility: visible;
 }
-.popup:target {
-  border: 1px solid red;
-}
 .popup:target .popup__content {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -725,6 +721,7 @@ body {
   width: 100%;
   transform: translateX(-100rem);
   opacity: 0;
+  visibility: hidden;
   transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 .navigation__list {
@@ -764,6 +761,7 @@ body {
 }
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
+  visibility: visible;
   transform: translateX(0);
 }
 .navigation__icon {

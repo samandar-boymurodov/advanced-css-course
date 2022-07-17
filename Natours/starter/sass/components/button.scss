@@ -6,7 +6,6 @@
     text-transform: uppercase;
     padding: 1.5rem 4rem;
     display: inline-block;
-    text-transform: uppercase;
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
@@ -18,7 +17,7 @@
   }
 
   &:hover {
-    transform: translateY(-0.3rem);
+    transform: translateY(-3px);
     box-shadow: 0 1rem 1rem rgb($color-black, 0.2);
 
     &::after {
@@ -83,12 +82,12 @@
   &:hover {
     background-color: $color-primary;
     color: $color-white;
-    box-shadow: 0rem 1rem 2rem rgb($color-black, 0.15);
+    box-shadow: 0 1rem 2rem rgb($color-black, 0.15);
     transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: 0rem 0.5rem 1rem rgb($color-black, 0.15);
+    box-shadow: 0 0.5rem 1rem rgb($color-black, 0.15);
     transform: translateY(0);
   }
 }

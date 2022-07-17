@@ -90,10 +90,6 @@
     visibility: visible;
   }
 
-  &:target {
-    border: 1px solid red;
-  }
-
   &:target &__content {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
