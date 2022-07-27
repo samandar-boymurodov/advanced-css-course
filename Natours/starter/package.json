@@ -6,7 +6,8 @@
   "scripts": {
     "compile:sass": "sass sass/main.scss  css/styles.css --watch",
     "format": "prettier --write .",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "dev": "concurrently --kill-others \"npm run compile:sass\" \"npm run start\""
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "parcel": "^2.6.2",
     "prettier": "^2.6.2",
     "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "concurrently": "^7.3.0"
   }
 }
