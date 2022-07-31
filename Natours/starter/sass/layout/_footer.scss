@@ -1,9 +1,14 @@
 @import "../abstracts/variables";
+@import "../abstracts/mixins";
 
 .footer {
   background-color: $color-grey-dark-3;
   padding: 10rem 0;
   font-size: 1.4rem;
+
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
 
   &__logo-box {
     text-align: center;
@@ -20,6 +25,10 @@
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
     display: inline-block;
+
+    @include respond(tab-port) {
+      text-align: center;
+    }
   }
 
   &__list {
@@ -60,5 +69,11 @@
     padding-top: 2rem;
     float: right;
     width: 80%;
+
+    @include respond(tab-port) {
+      text-align: center;
+      float: none;
+      width: 100%;
+    }
   }
 }

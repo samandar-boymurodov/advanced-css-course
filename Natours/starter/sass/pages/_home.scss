@@ -43,7 +43,6 @@
 }
 
 .book {
-  height: 50rem;
   background-image: linear-gradient(
       105deg,
       rgba($color-white, 0.9),
@@ -55,8 +54,39 @@
   border-radius: $border-radius;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
 
+  @include respond(tab-land) {
+    background-image: linear-gradient(
+        105deg,
+        rgba($color-white, 0.9),
+        rgba($color-white, 0.9) 70%,
+        transparent 50%
+      ),
+      url("../img/nat-10.jpg");
+  }
+
+  @include respond(tab-port) {
+    background-image: linear-gradient(
+        to right,
+        rgba($color-white, 0.9) 0,
+        rgba($color-white, 0.9) 100%
+      ),
+      url("../img/nat-10.jpg");
+  }
+
   &__form {
     width: 50%;
     padding: 6rem;
+
+    @include respond(tab-land) {
+      width: 70%;
+    }
+
+    @include respond(tab-land) {
+      width: 100%;
+
+      input {
+        width: 100%;
+      }
+    }
   }
 }
