@@ -32,6 +32,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media screen and (max-width: 68.75rem) {
+    font-size: 50%;
+  }
 }
 
 *,
