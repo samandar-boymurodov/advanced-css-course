@@ -63,17 +63,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 31.25rem) {
+  .search {
+    order: 1;
+    flex: 0 0 100%;
+  }
+}
 .search__input {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
   background-color: var(--color-grey-ligh-2);
   border: none;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 4.5rem 0.7rem 2rem;
   border-radius: 50px;
   width: 90%;
   transition: all 0.2s;
   margin-right: -3.5rem;
+  margin-left: -1.75rem;
 }
 .search__input:focus {
   outline: none;
@@ -250,6 +257,11 @@ body {
   align-items: center;
   border-bottom: 1px solid var(--color-grey-ligh-2);
 }
+@media screen and (max-width: 31.25rem) {
+  .overview {
+    flex-wrap: wrap;
+  }
+}
 .overview__heading {
   font-size: 2.25rem;
   font-weight: 300;
@@ -257,9 +269,23 @@ body {
   letter-spacing: 1px;
   padding: 1.5rem 3rem;
 }
+@media screen and (max-width: 37.5rem) {
+  .overview__heading {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+}
 .overview__stars {
   margin-right: auto;
   display: flex;
+}
+@media screen and (max-width: 31.25rem) {
+  .overview__stars {
+    flex-basis: 50%;
+    order: 2;
+    justify-content: flex-end;
+    margin: 1rem 0;
+  }
 }
 .overview__icon-star, .overview__icon-location {
   width: 1.75rem;
@@ -270,6 +296,13 @@ body {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 31.25rem) {
+  .overview__location {
+    flex-basis: 50%;
+    order: 1;
+    padding: 0 2rem 1rem;
+  }
 }
 .overview__icon-location {
   margin-right: 0.5rem;
@@ -285,10 +318,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 37.5rem) {
+  .overview__rating {
+    padding: 0 2rem;
+    margin-left: auto;
+  }
+}
 .overview__rating-average {
   font-size: 2.25rem;
   font-weight: 300;
   margin-bottom: -3px;
+}
+@media screen and (max-width: 37.5rem) {
+  .overview__rating-average {
+    font-size: 2rem;
+  }
 }
 .overview__rating-count {
   font-size: 0.8rem;
@@ -526,6 +570,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 31.25rem) {
+  .header {
+    flex-wrap: wrap;
+    height: 11rem;
+    align-content: space-around;
+  }
 }
 
 .content {
