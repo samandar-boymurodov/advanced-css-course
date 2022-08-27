@@ -1,3 +1,216 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.sidebar {
+  background-color: #c69963;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  background-color: #54483a;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.realtors {
+  background-color: #101d2c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.features {
+  background-color: #aaa;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.story__pictures {
+  background-color: #c69963;
+}
+.story__content {
+  background-color: #f9f7f6;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.homes {
+  background-color: #101d2c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.gallery {
+  background-color: #54483a;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer {
+  background-color: #101d2c;
+}
 
 /*# sourceMappingURL=style.css.map */
