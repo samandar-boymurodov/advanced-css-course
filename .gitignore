@@ -9,4 +9,8 @@ Trillo/starter/node_modules
 
 Nexter/starter/node_modules
 Nexter/starter/.idea
+Nexter/starter/.parcel-cache
+Nexter/starter/dist
+
+.netlify
 

@@ -2,4 +2,5 @@
 
 .footer {
   background-color: $color-secondary;
+  grid-column: main-start/main-end;
 }

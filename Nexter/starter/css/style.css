@@ -18,6 +18,16 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
+}
+
 *,
 *::before,
 *::after {
@@ -36,10 +46,22 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .sidebar {
   background-color: #c69963;
+  grid-column: sidebar-start/sidebar-end;
+  grid-row: 1/-1;
 }
 
 *,
@@ -60,10 +82,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .header {
   background-color: #54483a;
+  grid-column: main-start/col-end 6;
 }
 
 *,
@@ -84,10 +117,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .realtors {
   background-color: #101d2c;
+  grid-column: col-start 7/main-end;
 }
 
 *,
@@ -108,10 +152,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .features {
   background-color: #aaa;
+  grid-column: center-start/center-end;
 }
 
 *,
@@ -132,13 +187,25 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .story__pictures {
   background-color: #c69963;
+  grid-column: main-start/col-end 4;
 }
 .story__content {
   background-color: #f9f7f6;
+  grid-column: col-start 5/main-end;
 }
 
 *,
@@ -159,10 +226,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .homes {
   background-color: #101d2c;
+  grid-column: center-start/center-end;
 }
 
 *,
@@ -183,10 +261,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
 }
 
 .gallery {
   background-color: #54483a;
+  grid-column: main-start/main-end;
 }
 
 *,
@@ -209,8 +298,19 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end main-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [main-end];
+}
+.container > * {
+  padding: 20px;
+  font-size: 3rem;
+}
+
 .footer {
   background-color: #101d2c;
+  grid-column: main-start/main-end;
 }
 
 /*# sourceMappingURL=style.css.map */
