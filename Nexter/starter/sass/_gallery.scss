@@ -10,10 +10,6 @@
   grid-gap: 1.5rem;
   padding: 1.5rem;
 
-  & > * {
-    width: 100%;
-  }
-
   &__item {
     &--1 {
       grid-row: 1 / span 2;
@@ -62,6 +58,14 @@
     }
     &--12 {
       grid-column: 4 / span 1;
+      grid-row: 6 / -1;
+    }
+    &--13 {
+      grid-column: 5 / span 3;
+      grid-row: 5 / -1;
+    }
+    &--14 {
+      grid-column: 8 / -1;
       grid-row: 6 / -1;
     }
   }
