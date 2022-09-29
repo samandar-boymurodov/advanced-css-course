@@ -3,4 +3,47 @@
 .footer {
   background-color: $color-secondary;
   grid-column: main-start/main-end;
+  padding: 8rem;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  &__item {
+    flex: 1 1 auto;
+  }
+
+  &__link:link,
+  &__link:visited {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-display;
+    padding: 1.5rem;
+    display: block;
+    min-width: 15rem;
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    background-color: rgba(#fff, 0.05);
+    transform: translateY(-3px);
+  }
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: $color-grey-light-2;
+  margin-top: 6rem;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }

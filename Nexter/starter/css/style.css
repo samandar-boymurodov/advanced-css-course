@@ -536,6 +536,44 @@ body {
 .footer {
   background-color: #101d2c;
   grid-column: main-start/main-end;
+  padding: 8rem;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.nav__item {
+  flex: 1 1 auto;
+}
+.nav__link:link, .nav__link:visited {
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1.5rem;
+  display: block;
+  min-width: 15rem;
+  text-align: center;
+  transition: all 0.2s;
+}
+.nav__link:hover, .nav__link:active {
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
