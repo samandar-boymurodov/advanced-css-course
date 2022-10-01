@@ -144,6 +144,29 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+  text-align: center;
+}
+
+.nav-btn {
+  border: none;
+  border-radius: 0;
+  height: 2px;
+  width: 4.5rem;
+  background-color: #fff;
+  margin-top: 4rem;
+}
+.nav-btn::before, .nav-btn::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 4.5rem;
+  background-color: #fff;
+}
+.nav-btn::before {
+  transform: translateY(-1.5rem);
+}
+.nav-btn::after {
+  transform: translateY(1.3rem);
 }
 
 *,
